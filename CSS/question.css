@@ -1,0 +1,104 @@
+body {
+	background: black;
+}
+
+.background {
+	background: darkcyan;
+	position: absolute;
+	top: 5%;
+	right: 0px;
+	bottom: 5%;
+	left: 0px;
+}
+
+.center {
+	background: #AFEEEE;
+	border: thick double #00ced1;
+	height: 70%;
+	width: 80%;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 10px;
+	text-align: center;
+}
+
+.question {
+	background: #6495ED;
+	border-radius: 10px;
+	height: 30px;
+	padding: 10px 0 0 0;
+}
+
+.container {
+	margin: 3% 0 1% 0;
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 20px;
+}
+
+.child {
+	flex: 1;
+	flex-basis: 50%;
+}
+
+.container>div,
+.child>input {
+	height: 40px;
+}
+
+.child>input {
+	width: 500px;
+	border-radius: 10px;
+	border: 0;
+}
+
+.containerbtn {
+	justify-content: space-around;
+}
+
+.nxtbtn {
+	position: relative;
+	width: 200px;
+	height: 30px;
+}
+
+.nxtbtn>input {
+	background: #00A36C;
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	border: 0;
+}
+
+.prebtn {
+	position: relative;
+	width: 200px;
+	height: 30px;
+}
+
+.prebtn>input {
+	background: #00A36C;
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	border: 0;
+}
+
+.submitbtn {
+	position: relative;
+	width: 200px;
+	height: 30px;
+	flex-grow: 2;
+	visibility: hidden;
+}
+
+.submitbtn>input {
+	background: #b38b6d;
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	border: 0;
+}

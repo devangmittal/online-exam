@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Exam</title>
+	<link rel="stylesheet" href="../CSS/question.css">
+
+	<script src="../JS/question.js"></script>
+</head>
+
+<body onload="userID()">
+	<div class="background">
+		<div class="center">
+			<h1>Welcome <span id="username"></span></h1>
+			<div>
+				<h1> PROGRAMMING QUIZ </h1>
+			</div>
+			<div class="question" id="quizquestion">Identify the keyword among the following that makes a variable
+				belong to a class,rather than being defined for each instance of the class.?</div>
+			<div class="container">
+				<div class="child"><input id="option1" name="option" onclick="userAnswer('option1')" type="button"
+						value="Final">
+				</div>
+				<div class="child"><input id="option2" name="option" onclick="userAnswer('option2')" type="button"
+						value="Static">
+				</div>
+				<div class="child"><input id="option3" name="option" onclick="userAnswer('option3')" type="button"
+						value="Protected">
+				</div>
+				<div class="child"><input id="option4" name="option" onclick="userAnswer('option4')" type="button"
+						value="Abstract">
+				</div>
+			</div>
+			<div class="container containerbtn">
+				<div class="prebtn"><input onclick="handlepre()" type="button" value="PRE"></div>
+				<div class="submitbtn" id="submit"><input onclick="submitbtn()" type="button" value="Submit"></div>
+				<div class="nxtbtn"><input onclick="handlenxt()" type="button" value="NEXT"></div>
+			</div>
+		</div>
+
+
+	</div>
+</body>
+
+</html>
